@@ -1,0 +1,8 @@
+# pip install pyqt6-tools
+
+./.venv/Scripts/python.exe -m ensurepip --upgrade
+./.venv/Scripts/pip3 install pyqt6-tools
+# ./.venv/Scripts/qt6-tools designer
+./.venv/Scripts/pyqt6-tools designer
+./.venv/Scripts/python.exe -m PyQt6.uic.pyuic src/bibimamba/mainwindow.ui -o src/bibimamba/mainwindow.py
+
